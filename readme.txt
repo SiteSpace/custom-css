@@ -1,17 +1,18 @@
-=== Simple Custom CSS ===
-Contributors: johnregan3, dvankooten
-Donate Link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BAG2XC69ZYADQ
-Tags: css, styles, custom css, custom
+=== Custom CSS ===
+Contributors: bmwillrath, divispace, sitespace.club
+Donate Link: http://sitespace.club
 Requires at least: 3.0.1
-Tested up to: 4.1
+Tested up to: 4.4
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: css, styles, custom css, custom
 
-Add Custom CSS to your WordPress site without any hassles.
+Add Custom CSS to your WordPress site without editing any files or making a child theme.
 
 == Description ==
 
+Adding CSS to your site shouldn’t be a pain, nor should it be difficult, so we’ve built this plugin to make it easy to put Custom CSS onto your site.
 An easy-to-use WordPress Plugin to add custom CSS styles that override Plugin and Theme default styles. This plugin is designed to meet the needs of administrators who would like to add their own CSS to their WordPress website.
 
 **New in Version 3.2**
@@ -31,15 +32,15 @@ An easy-to-use WordPress Plugin to add custom CSS styles that override Plugin an
 
 == Installation ==
 
-Install Simple Custom CSS just as you would any other WP Plugin:
+Install Custom CSS just as you would any other WP Plugin:
 
-1.  [Download Simple Custom CSS](http://wordpress.org/plugins/simple-custom-css "Simple Custom CSS") from WordPress.org.
+1.  [Download Custom CSS](http://wordpress.org/plugins/simple-custom-css "Custom CSS") from WordPress.org.
 
 2.  Unzip the .zip file.
 
 3.  Upload the Plugin folder (simple-custom-css/) to the wp-content/plugins folder.
 
-4. Go to [Plugins Admin Panel](http://codex.wordpress.org/Administration_Panels#Plugins "Plugins Admin Panel") and find the newly uploaded Plugin, "Simple Custom CSS" in the list.
+4. Go to [Plugins Admin Panel](http://codex.wordpress.org/Administration_Panels#Plugins "Plugins Admin Panel") and find the newly uploaded Plugin, "Custom CSS" in the list.
 
 5. Click Activate Plugin to activate it.
 
@@ -79,7 +80,7 @@ Please check your CSS at the [W3C CSS Validation Service](http://jigsaw.w3.org/c
 
 == Screenshots ==
 
-1. The Simple Custom CSS Administration Screen
+1. The Custom CSS Administration Screen
 
 == Changelog ==
 
@@ -127,7 +128,7 @@ Please check your CSS at the [W3C CSS Validation Service](http://jigsaw.w3.org/c
 
 Instead of using print_scripts to insert the CSS directly into the HEAD, CSS styles are generated within simple-custom-css.php (the sole file for this plugin), then added via wp_enqueue_scripts, so now it will appear in the HEAD as:
 
-		<link rel="stylesheet" href="http://yoursite.com/?sccss=1" />
+		<link rel="stylesheet" href="http://yoursite.com/?SCCSS=1" />
 
 ...even though no css file is actually generated.  Please see the comments within the Plugin file for more detailed information.
 

@@ -1,14 +1,12 @@
 <?php
 /**
- * Plugin Name: Simple Custom CSS
- * Plugin URI: http://johnregan3.github.io/simple-custom-css
- * Description: The simple, solid way to add custom CSS to your WordPress website. Simple Custom CSS allows you to add your own styles or override the default CSS of a plugin or theme.
- * Author: John Regan, Danny Van Kooten
- * Author URI: http://johnregan3.me
- * Version: 3.2
- * Text Domain: sccss
- *
- * Copyright 2014  John Regan  (email : john@johnregan3.com)
+ * Plugin Name: Custom CSS
+ * Plugin URI: http://sitespace.club
+ * Description: Add Custom CSS to your WordPress site without editing any files or making a child theme.
+ * Author: Site Space
+ * Author URI: http://sitespace.club
+ * Version: 1.0
+ * Text Domain: SCCSS
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License, version 2, as
@@ -24,8 +22,8 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  *
  * @package SCCSS
- * @author John Regan
- * @version 3.2
+ * @author Braydan Willrath
+ * @version 1.0
  */
 
 // Prevent direct file access
@@ -40,4 +38,3 @@ if( ! is_admin() ) {
 } elseif( ! defined( 'DOING_AJAX' ) ) {
 	require_once dirname( SCCSS_FILE ) . '/includes/admin.php';
 }
-
